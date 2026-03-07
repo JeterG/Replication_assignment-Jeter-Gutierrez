@@ -1,5 +1,9 @@
-#home_content1 {
-    background: url(/images/backgroundwallpaper.png) center/cover no-repeat;
+/* Make the wallpaper curve with a gray overlay on top */
+#wallpaper {
+    background:
+        linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)),
+        url(/images/backgroundwallpaper.png);
+    background-size: 100% 100%;
+    border-radius: 0 0 50% 50% / 0 0 50px 50px;
     height: 50vh;
-    border-radius: 0 0 50% 50% / 0 0 80px 80px;
 }
