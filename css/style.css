@@ -1,9 +1,5 @@
 #home_content1 {
-    background-image: url("/images/backgroundwallpaper.png");
-}
-#home_content1 {
-    width: 100%;
-    min-height: 50vh;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background: url(/images/backgroundwallpaper.png) center/cover no-repeat;
+    height: 50vh;
+    border-radius: 0 0 50% 50% / 0 0 80px 80px;
 }
