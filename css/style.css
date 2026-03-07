@@ -1,3 +1,8 @@
+/* default gradient orange */
+:root {
+    --gradient-orange: linear-gradient(to right, red, orange);
+}
+
 /* Make the wallpaper curve with a gray overlay on top */
 #wallpaper {
     background:
@@ -6,4 +11,16 @@
     background-size: 100% 100%;
     border-radius: 0 0 50% 50% / 0 0 50px 50px;
     height: 50vh;
+}
+
+/* Change the default font */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Orange gradient button */
+.btn-gradient-orange {
+    background: var(--gradient-orange);
+    border-radius: 1rem;
+    font-size: 0.75rem;
 }
