@@ -22,3 +22,15 @@ body {
 .xs {
     font-size: 0.75rem;
 }
+/* Gradient for bg-warning */
+.bg-warning {
+    background: linear-gradient(135deg, #fe4401 9%, #ffa500 100%) !important;
+}
+
+.bg-orange {
+    background-color: orange !important;
+}
+
+.bg-solid-orange {
+    background: orange !important;
+}
