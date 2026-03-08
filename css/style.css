@@ -18,9 +18,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* Orange gradient button */
-.btn-gradient-orange {
-    background: var(--gradient-orange);
-    border-radius: 1rem;
+/* xtra small font */
+.xs {
     font-size: 0.75rem;
 }
